@@ -1,0 +1,12 @@
+@import '../../node_modules/bootstrap/scss/_functions.scss';
+@import '../../node_modules/bootstrap/scss/_variables.scss';
+
+$default-colors: (
+'purple':#803586,
+'orange':#E44A16,
+'green':#32A071
+);
+
+$theme-colors: map-merge($theme-colors, $default-colors);
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
